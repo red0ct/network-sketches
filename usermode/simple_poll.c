@@ -7,6 +7,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+#include <unistd.h>
 
 #define MAX_POLL 32
 #define LISTEN_PORT 31337
